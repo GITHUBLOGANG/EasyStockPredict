@@ -98,20 +98,6 @@ python run_example.py
 - LightGBM 安装失败：Windows 上直接 `pip install lightgbm` 有时会失败，请参考 LightGBM 官方文档或使用 conda 安装（`conda install -c conda-forge lightgbm`），或在不需要时忽略 LightGBM（脚本会检测是否可用）。
 - TensorFlow 相关错误：若遇到 GPU/驱动问题，可先安装 CPU 版本或将 `tensorflow` 指定为兼容的版本，或在 `pip` 安装时使用 `tensorflow-cpu`（取决于你的硬件）。
 
-安全与隐私
-------------------
-- 切勿将你的 `TUSHARE_TOKEN` 提交到公开仓库。建议使用系统环境变量或 CI/CD secret 管理。
-
-下一步建议（我可以帮你做）
-------------------
-- 我可以把一个简单的 `run_example.py` 添加到仓库，作为一键运行示例。
-- 我可以为你把仓库初始化并提交到 GitHub（你提供远程仓库地址即可），并展示将要运行的 PowerShell 命令供你确认。
-- 如果你希望非编程用户用 GUI，我可以把 Gradio 的界面入口实现并写好说明。
-
-许可证
-------------------
-本项目使用 MIT 许可证（见 `LICENSE`）。如果需要其他许可证，请告诉我。
-
 联系方式与贡献
 ------------------
 欢迎提交 issue 或 PR。若希望我继续改进（添加 GUI、自动化训练脚本或更友好的安装器），回复我你想要的功能即可。

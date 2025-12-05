@@ -1,0 +1,10 @@
+tushare
+numpy
+pandas
+scikit-learn
+tensorflow>=2.10.0
+matplotlib
+Pillow
+gradio
+# 如果需要 LightGBM 的功能，请安装 lightgbm（在某些系统上需要编译依赖）
+lightgbm
